@@ -145,6 +145,7 @@ small? Why?
 
 # Answers:
 ## (a):
+
 | Obs. | X1 | X2 | X3 | Y     | Distance        |
 | ---- | -- | -- | -- | ----- | --------------- |
 | 1    |  0 |  3 |  0 | Red   | 3.0             |
@@ -153,6 +154,7 @@ small? Why?
 | 4    |  0 |  1 |  2 | Green | sqrt(5) = 2.23  |
 | 5    | -1 |  0 |  1 | Green | sqrt(2) = 1.41  |
 | 6    |  1 |  1 |  1 | Red   | sqrt(3) = 1.73  |
+
 ## (b):
 Green. The point at -1, 0, 1 is the single nearest neighbour and is 
 classified as green.
