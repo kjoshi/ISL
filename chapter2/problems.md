@@ -146,6 +146,7 @@ small? Why?
 # Answers:
 ## (a):
 | Obs. | X1 | X2 | X3 | Y     | Distance        |
+| ---- | -- | -- | -- | ----- | --------------- |
 | 1    |  0 |  3 |  0 | Red   | 3.0             |
 | 2    |  2 |  0 |  0 | Red   | 2.0             |
 | 3    |  0 |  1 |  3 | Red   | sqrt(10) = 3.16 |
@@ -161,8 +162,11 @@ The majority class is red. Therefore the prediction is red.
 ### Note:
 The correct way of working this out is to use equation 2.12.
 I.e. 
+
 P(Y=red|x=x0) = 1/3 * sum I(yi = red) = 1/3 * (1 + 0 + 1) = 2/3
+
 P(Y=green|x=x0) = 1/3 * sum I(yi = green) = 1/3 * (0 + 1 + 0) = 1/3
+
 Therefore prediction is red.
 ## (d):
 Best K value would be small.
